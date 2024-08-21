@@ -8,8 +8,7 @@ import Search from './searchBasicDestructuring.jsx';
 
 import './App.css'
 
-import RenderListUsingArrowFunction from "./renderListUsingArrowFunction.jsx";
-import RenderListUsingJSFunction from "./renderListUsingJSFunction.jsx";
+import RenderListDestructuringPropsInFunctionSignature from "./renderListDestructuringPropsInFunctionSignature.jsx";
 
 //Declaration of App component
 function App() {
@@ -102,9 +101,7 @@ function App() {
 
        <hr/>
 
-       <RenderListUsingArrowFunction list={searchedStories} />
-
-       {/* <RenderListUsingJSFunction list={searchedStories}/>  */}
+       <RenderListDestructuringPropsInFunctionSignature list={searchedStories} />
         
     </div>
   )
