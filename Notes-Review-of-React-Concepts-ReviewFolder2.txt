@@ -528,7 +528,28 @@ Custom Hooks, Fragments, Reusable Components
           </div>
         );
 
+   4. Nested Destructuring
+        const user = {
+          firstName: 'Robin',
+          pet: { 
+            name: 'Trixi'
+          },
+        };
 
+        //without object destructuring
+        const firstName  = user.firstName;
+        conts name = user.pet.name;
+
+        //with nested destructuring
+        const {
+            firstName,
+            pet: {
+               name,
+            },
+        } = user; 
+      
+   5.  Spread and RestOperator
+   
 REVIEW FOLDER3
 
 

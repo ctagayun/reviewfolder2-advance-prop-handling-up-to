@@ -9,6 +9,8 @@ import Search from './searchBasicDestructuring.jsx';
 import './App.css'
 
 import RenderListDestructuringPropsInFunctionSignature from "./renderListDestructuringPropsInFunctionSignature.jsx";
+import RenderListUsingSpreadAndRestOperator from "./renderListDestructuringPropsInFunctionSignature.jsx";
+
 
 //Declaration of App component
 function App() {
@@ -101,8 +103,9 @@ function App() {
 
        <hr/>
 
-       <RenderListDestructuringPropsInFunctionSignature list={searchedStories} />
-        
+        {/* <RenderListDestructuringPropsInFunctionSignature list={searchedStories} /> */}
+       <RenderListUsingSpreadAndRestOperator list={searchedStories} />
+
     </div>
   )
 }
