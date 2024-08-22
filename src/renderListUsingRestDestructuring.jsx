@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const RenderListUsingSpreadAndRestOperator = ({list}) => (
+const RenderListUsingRestDestructuring = ({list}) => (
     //When we destruture props in the function signature we 
     //omit the function block body (meaning the return statement)
     //Instead of passing item as an object every property is passed 
@@ -23,9 +23,9 @@ const RenderListUsingSpreadAndRestOperator = ({list}) => (
       </>
     );
   
-export default RenderListUsingSpreadAndRestOperator;
+export default RenderListUsingRestDestructuring;
 
-//Notice the props are listed one by one
+//Notice the props are destructured using Javascript rest destructuring
 const Item = ({title, url, author, num_comments, points}) =>(
   <li>
     <span>
