@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const RenderListUsingSpreadDotDotOperator = ({list}) => (
+const RenderListUsingSpreadDotDotOperatorVariation1 = ({list}) => (
     //When we destruture props in the function signature we 
     //omit the function block body (meaning the return statement)
 
@@ -10,7 +10,7 @@ const RenderListUsingSpreadDotDotOperator = ({list}) => (
     //javascript spread ... operator to pass all the objects "key/value" pairs
     //as attribute/value pairs. Example "...item"
         <>
-        <h2>Example of Destructuring Props Using Spread Dot Dot Dot Operator  </h2>
+        <h2>Example of Destructuring Props Using Spread Dot Dot Dot Operator Variation 2 </h2>
         <ul>
            {list.map ((item) => (
              <Item
@@ -22,7 +22,7 @@ const RenderListUsingSpreadDotDotOperator = ({list}) => (
       </>
     );
   
-export default RenderListUsingSpreadDotDotOperator;
+export default RenderListUsingSpreadDotDotOperatorVariation1;
 
 //Notice the props are destructured using Javascript rest destructuring
 const Item = ({title, url, author, num_comments, points}) =>(

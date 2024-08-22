@@ -10,7 +10,8 @@ import './App.css'
 
 import RenderListDestructuringPropsInFunctionSignature from "./renderListDestructuringPropsInFunctionSignature.jsx";
 import RenderListUsingRestDestructuring from "./renderListUsingRestDestructuring.jsx";
-import RenderListUsingSpreadDotDotOperator from "./renderListUsingSpreadDotDotOperator.jsx";
+import RenderListUsingSpreadDotDotOperatorVariation1 from "./renderListUsingSpreadDotDotOperatorVariation1.jsx";
+import RenderListUsingSpreadDotDotOperatorVariation2 from "./renderListUsingSpreadDotDotOperatorVariation2.jsx";
 
 //Declaration of App component
 function App() {
@@ -105,7 +106,8 @@ function App() {
 
         {/* <RenderListDestructuringPropsInFunctionSignature list={searchedStories} /> */}
        {/* <RenderListUsingRestDestructuring list={searchedStories} /> */}
-       <RenderListUsingSpreadDotDotOperator list={searchedStories}/>
+       {/* <RenderListUsingSpreadDotDotOperatorVariation1 list={searchedStories}/> */}
+       <RenderListUsingSpreadDotDotOperatorVariation2 list={searchedStories}/>
 
     </div>
   )
