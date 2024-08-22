@@ -474,8 +474,7 @@ REVIEW FOLDER1
           especially in forms with many input elements.
 
 REVIEW FOLDER2
-      This folder contains code examples for: Props Handling, Side-Effects,
-Custom Hooks, Fragments, Reusable Components
+      This folder contains code examples for: Props Handling,  
 
    1. Props Handling (Advanced)
       - props are just Javascript object (e.g props.list, props.onsearch...)
@@ -548,10 +547,9 @@ Custom Hooks, Fragments, Reusable Components
             },
         } = user; 
       
-   5.  Spread and RestOperator
-   
-REVIEW FOLDER3
+   5.  Spread and Rest Operator
 
+REVIEW FOLDER3 - Side Effects, Custom Hooks and Fragments
 
    1.
 
