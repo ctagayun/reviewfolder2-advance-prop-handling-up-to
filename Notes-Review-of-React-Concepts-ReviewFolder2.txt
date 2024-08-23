@@ -528,6 +528,8 @@ REVIEW FOLDER2
         );
 
    4. Nested Destructuring
+        - see comments in renderListDestructuringPropsInFunctionSignature
+          and  renderListUsingRestDestructuring
         const user = {
           firstName: 'Robin',
           pet: { 
@@ -548,10 +550,18 @@ REVIEW FOLDER2
         } = user; 
       
    5.  Spread and Rest Operator
+        - see comments in 
+             renderListUsingSpreadDotDotOperatorVariation1
+             renderListUsingSpreadDotDotOperatorVariation2
 
 REVIEW FOLDER3 - Side Effects, Custom Hooks and Fragments
 
-   1.
+   1. React output is determined by:
+        - props and its state 
+        - and "side effect"
+
+   2. Making Search component remember what happened in the previous iteration.
+       - first store recent search to local storage (see app.jsx)
 
 999. MEMOIZING
 - see C:\_AMyReactDev\chitoreactdev\_guijt-house-react-projects/house-8-forsale-react-async-search-with-delete-add-moize
